@@ -1,0 +1,9 @@
+
+ ┓    •       │   %s
+ ┃┏┓┏┓┓┏┓┏┓┏  │   %n
+ ┗┗┛┗┫┗┛┗┛ ┛  │   %m
+     ┛        │   logged in users: %u
+ rust based   │   %l
+              │   %d
+F1: reboot    │   %t
+F2: shutdown  │   %U

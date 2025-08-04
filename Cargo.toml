@@ -1,0 +1,43 @@
+[package]
+name = "loginrs"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8.20"
+libc = "0.2.163"
+chrono = "0.4.38"
+nix = { version = "0.29", features = ["ioctl", "user"] }
+sysinfo = "0.33.1"
+pam-sys = "0.5.6"
+regex = "1.11.1"
+crossterm = "0.28.1"
+
+#[[bin]]
+#name = "user"
+#path = "src/user.rs"
+
+#[[bin]]
+#name = "session"
+#path = "src/session.rs"
+
+#[[bin]]
+#name = "settings"
+#path = "src/settings.rs"
+
+#[[bin]]
+#name = "issue_helpers"
+#path = "src/issue_helpers.rs"
+
+#[[bin]]
+#name = "auth_user"
+#path = "src/auth_user.rs"
+
+#[[bin]]
+#name = "num_lock"
+#path = "src/num_lock.rs"
+
+[[bin]]
+name = "loginrs"
+path = "src/main.rs"
